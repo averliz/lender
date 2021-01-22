@@ -13,6 +13,9 @@ public class Loan {
         this.isPaid = false;
     }
 
+    public Loan(String borrower, int amount, double interestRate) {
+    }
+
     public int getAmount() {
         return amount;
     }
